@@ -1,0 +1,6 @@
+{
+  "name": "Module 103 sensor application",
+  "description": "An interactive educational platform for learning Arduino Uno and sensor electronics through simulations and games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

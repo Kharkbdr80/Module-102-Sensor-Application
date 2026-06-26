@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4D96FF;
+  --color-secondary: #FFD93D;
+  --color-success: #6BCB77;
+  --color-danger: #FF6B6B;
+  --color-dark: #1A1A1A;
+}
+
+@layer components {
+  .hard-shadow-primary {
+    @apply shadow-[8px_8px_0px_0px_#4D96FF];
+  }
+  .hard-shadow-success {
+    @apply shadow-[8px_8px_0px_0px_#6BCB77];
+  }
+  .hard-shadow-danger {
+    @apply shadow-[8px_8px_0px_0px_#FF6B6B];
+  }
+  .hard-shadow-secondary {
+    @apply shadow-[8px_8px_0px_0px_#FFD93D];
+  }
+  .hard-shadow-dark {
+    @apply shadow-[8px_8px_0px_0px_rgba(0,0,0,0.2)];
+  }
+  .button-pop {
+    @apply border-b-4 border-black/20 active:translate-y-1 active:border-b-0 transition-all;
+  }
+}
